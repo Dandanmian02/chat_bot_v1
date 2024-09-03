@@ -8,7 +8,6 @@ import time
 import os
 
 st.set_page_config(page_title="AI CHatbot", page_icon="=)", layout="wide")
-st.image('file:///C:/Users/This%20PC/Desktop/Character_Venti_Full_Wish.webp')
 ASSISTANT_ID="asst_A95bhvZds5YyTWYFxnhBR1ox"
 THREAD_ID='thread_xlA2Lljk2KldAe9tEtauCbf2'
 
@@ -61,5 +60,7 @@ if prompt:
         )
         message_placeholder.markdown(full_response)
     st.session_state.messages.append({"role": "assistant", "content": full_response})
+
+st.image('file:///C:/Users/This%20PC/Desktop/Character_Venti_Full_Wish.webp')
                      
                                                            
