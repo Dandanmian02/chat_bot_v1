@@ -7,6 +7,7 @@ import time
 
 import os
 
+st.image("file:///C:/Users/This%20PC/Desktop/download.jpg")
 st.set_page_config(page_title="AI CHatbot", page_icon="=)", layout="wide")
 ASSISTANT_ID="asst_A95bhvZds5YyTWYFxnhBR1ox"
 THREAD_ID='thread_xlA2Lljk2KldAe9tEtauCbf2'
