@@ -61,6 +61,5 @@ if prompt:
         message_placeholder.markdown(full_response)
     st.session_state.messages.append({"role": "assistant", "content": full_response})
 
-st.image('file:///C:/Users/This%20PC/Desktop/Character_Venti_Full_Wish.webp')
                      
                                                            
