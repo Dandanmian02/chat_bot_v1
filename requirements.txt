@@ -2,3 +2,4 @@ streamlit==1.38.0
 openai==1.42.0 
 python-dotenv==1.0.1 
 streamlit-vis-timeline==0.3.0
+setuptools==75.1.0
