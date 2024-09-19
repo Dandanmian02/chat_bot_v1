@@ -73,8 +73,8 @@ def home_page():
         st.text(future_goal)
     
     items = [
-        {"id": 1, "content": "test", "start": "2022-10-20"},
-        {"id": 2, "content": "test2", "start": "2022-11-1"},
+        {"id": 1, "content": "finsh the home page", "start": "2024-9-22"},
+        {"id": 2, "content": "Finsh more work", "start": "2024-10-1"},
     ]
 
     timeline = st_timeline(items, groups=[], options={}, height="300px")
