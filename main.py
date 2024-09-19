@@ -65,7 +65,7 @@ def display_chatbot():
 
 def home_page():
     st.title("Welcome to Dean's Portfolio")
-    ask = st.text_input("Ask any thing about me")
+    ask = st.text_input("Ask any thing about me(NOW only open for 'who are you' and 'What are you going to do in the future'")
     if ask == "who are you":
         st.info("I am Dean Chen, now a highschool 9th grade student. I am also a student that is learening how to program, I diden't start\n programing that long but I like it. I spend about 2 hour a day to program(like thinking, talking, and writing code).  ", icon=None)
     elif ask == "What are you going to do in the future":
