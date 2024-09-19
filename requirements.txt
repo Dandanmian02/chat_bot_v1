@@ -1,5 +1,5 @@
-streamlit==1.25.0
+streamlit==1.38.0 
 openai==1.42.0 
 python-dotenv==1.0.1 
-streamlit-vis-timeline==0.3.0
+streamlit-vis-timeline==0.2.1
 setuptools==75.1.0
